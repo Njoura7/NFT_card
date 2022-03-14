@@ -1,0 +1,89 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap");
+*,
+html,
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Outfit", sans-serif;
+}
+html {
+	height: 100%;
+}
+
+body {
+	background-color: hsl(217, 54%, 11%);
+	width: 100%;
+	height: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.container {
+	background-color: hsl(216, 50%, 16%);
+	border-radius: 15px;
+	height: 32rem;
+	width: 17rem;
+	padding: 1.5rem;
+	padding-bottom: 1.75rem;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+.nft-img {
+	width: 100%;
+	height: 55%;
+	border-radius: 7px;
+}
+h1 {
+	color: white;
+	font-size: 1.25rem;
+	font-weight: 600;
+}
+p {
+	color: hsl(215, 51%, 80%);
+	font-size: 1rem;
+	font-weight: 300;
+}
+.details {
+	display: flex;
+	justify-content: space-between;
+	color: hsl(215, 51%, 70%);
+	font-size: 0.9rem;
+	font-weight: 300;
+}
+.price {
+	font-weight: 600;
+	color: cyan;
+}
+.price::before {
+	content: url(images/icon-ethereum.svg);
+	position: relative;
+	right: 5px;
+	top: 2px;
+}
+
+.days::before {
+	content: url(images/icon-clock.svg);
+	position: relative;
+	right: 5px;
+	top: 2px;
+}
+
+.credit {
+	padding-top: 10px;
+	border-top: 1px solid hsl(215, 32%, 27%);
+	display: flex;
+	align-items: center;
+	color: hsl(215, 51%, 70%);
+	font-weight: 300;
+}
+#avatar {
+	width: 30px;
+	margin-right: 10px;
+	border-radius: 50%;
+	border: 1px solid white;
+}
+.owner {
+	color: white;
+	padding-left: 5px;
+}
