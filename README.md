@@ -29,8 +29,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Njoura7/NFT_card)
-- Live Site URL: [Add live site URL here](https://njoura7.github.io/NFT_card/)
+- Solution URL: [solution URL here](https://github.com/Njoura7/NFT_card)
+- Live Site URL: [live site URL here](https://njoura7.github.io/NFT_card/)
 
 ### Built with
 
