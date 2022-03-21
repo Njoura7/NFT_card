@@ -21,8 +21,8 @@ body {
 .container {
 	background-color: hsl(216, 50%, 16%);
 	border-radius: 15px;
-	height: 33rem;
-	width: 17rem;
+	height: 34rem;
+	width: 17.5rem;
 	padding: 1.5rem;
 	padding-bottom: 1.75rem;
 	display: flex;
@@ -38,7 +38,6 @@ body {
 	width: 100%;
 	height: 53%;
 	border-radius: 7px;
-	background-color: blue;
 	position: relative;
 }
 .img-overlay {
@@ -50,12 +49,12 @@ body {
 	opacity: 0;
 	width: 100%;
 	height: 100%;
+	transition: background-color, opacity 0.25s;
 }
-
 .img-overlay:hover {
 	cursor: pointer;
-	background: cyan;
-	opacity: 0.5;
+	background: hsla(180, 100%, 50%, 0.25);
+	opacity: 1;
 }
 
 h1 {
